@@ -36,22 +36,101 @@
 }
 
 /* Fluid Layouts */
-.homepage main {
+.home-page main {
   width: 80%;
   margin: 0 auto;
-  font-size: irem;
+  font-size: 1rem;
 }
 
 .page3 main {
   width: 80%;
   margin: 0 auto;
-  font-size: irem;
+  font-size: 1rem;
 }
 
 .resume main {
   width: 80%;
   margin: 0 auto;
-  font-size: irem;
+  font-size: 1rem;
 }
 
 /* Home Page Style */
+
+/* Style 1 */
+.home-page h1 {
+  text-align: center;
+}
+
+/* Style 2 */
+.home-page h1 {
+  color: navy;
+}
+
+/* Style 3 */
+.home-page {
+  background-color: lightgray;
+}
+
+/* Style 4 */
+.home-page p {
+  font-family: Arial, sans-serif;
+}
+
+/* Style 5 */
+.home-page table, th, td {
+  border: 1px solid black;
+}
+
+/* Resume Style */
+
+/* Style 1 */
+.resume h1 {
+  text-align: center;
+}
+
+/* Style 2 */
+.resume h1 {
+  color: darkgreen;
+}
+
+/* Style 3 */
+.resume section {
+  padding: 1rem;
+}
+
+/* Style 4 */
+.resume p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Style 5 */
+.resume h2 {
+  bottom-border: 2px solid gray;
+}
+
+/* Page 3 Style */
+
+/* Style 1 */
+.page3 h1 {
+  text-align: center;
+}
+
+/* Style 2 */
+.page3 h1 {
+  color: purple;
+}
+
+/* Style 3 */
+.page3 {
+  background-color: #CCCCFF;
+}
+
+/* Style 4 */
+.page3 p {
+  color: yellow;
+}
+
+/* Style 5 */
+.page p {
+  line-height: 1.6;
+}
