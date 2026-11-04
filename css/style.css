@@ -19,7 +19,6 @@
 #main-nav ul li a {
   padding: 10px 25px;
   display: block;
-  test-decoration: none;
   color: #ccc;
 }
 
@@ -105,7 +104,7 @@
 
 /* Style 5 */
 .resume h2 {
-  bottom-border: 2px solid gray;
+  border-bottom: 2px solid gray;
 }
 
 /* Page 3 Style */
