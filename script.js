@@ -33,7 +33,7 @@ function initMap() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const questionButton = document.getElementById("questions")
+  const questionButton = document.getElementById("question")
 
   if (questionButton) {
     questionButton.addEventListener("click", function () {
