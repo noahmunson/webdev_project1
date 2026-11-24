@@ -133,3 +133,40 @@
 .page p {
   line-height: 1.6;
 }
+
+/* Map */
+#map {
+  height: 400px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* Media Query 1 */
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  img {
+    max-width: 80%;
+  }
+}
+
+/* Media Query 2 */
+@media screen and (min-width: 900px) {
+  body {
+    margin: 30px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  nav {
+    justify-content: center;
+  }
+}
