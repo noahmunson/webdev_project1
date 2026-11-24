@@ -37,9 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (questionButton) {
     questionButton.addEventListener("click", function () {
-      alert(
-        "If you have questions, contact me at:\nnmunson@hawk.illinoistech.edu",
-      )
+      alert("If you have questions, contact me at:\nnmunson@hawk.illinoistech.edu")
     })
   }
 })
