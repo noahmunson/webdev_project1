@@ -5,9 +5,8 @@
   padding: 0;
   float: left;
   position: relative;
-  left:50%;
+  left: 50%;
 }
-
 
 #main-nav {
   float: left;
@@ -15,13 +14,11 @@
   background-color: #333;
 }
 
-
 #main-nav ul li a {
   padding: 10px 25px;
   display: block;
   color: #ccc;
 }
-
 
 #main-nav ul li a:hover {
   background-color: #ccc;
@@ -76,7 +73,9 @@
 }
 
 /* Style 5 */
-.home-page table, th, td {
+.home-page table,
+th,
+td {
   border: 1px solid black;
 }
 
@@ -121,7 +120,7 @@
 
 /* Style 3 */
 .page3 {
-  background-color: #CCCCFF;
+  background-color: #ccccff;
 }
 
 /* Style 4 */
@@ -147,8 +146,8 @@
     font-size: 18px;
   }
 
-  nav {
-    display: flex;
+  h2 {
+    font-size: 26px;
   }
 
   img {
@@ -166,7 +165,7 @@
     font-size: 36px;
   }
 
-  nav {
-    justify-content: center;
+  img {
+    max-width: 75%;
   }
 }

@@ -1,32 +1,33 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Map</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Map</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <script src="script.js" defer></script>
-</head>
+  <body class="map">
+    <header>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="page3.html">Side-Project with Friends</a></li>
+          <li><a href="map.html">Map</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>The Map</h1>
 
-<body class="map">
-  <header>
-    <nav id="main-nav">
-      <ul>
-        <li><a href="index.html">Homepage</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="page3.html">Side-Project with Friends</a></li>
-        <li><a href="map.html">Map</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1>The Map</h1>
+      <div id="map"></div>
 
-    <div id="map"></div>
-
-    <button id="question">Questions?</button>
-  </main>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" defer></script>
-</body>
+      <button id="question">Questions?</button>
+    </main>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
+      defer
+    ></script>
+  </body>
 </html>
-
